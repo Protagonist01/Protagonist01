@@ -165,13 +165,17 @@ Python CLI task manager with **natural-language parsing**, tags, priorities, dat
 
 <div align="center">
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=Protagonist01&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00FF9C&icon_color=00FF9C&text_color=c9d1d9&ring_color=00FF9C&include_all_commits=true&count_private=true" alt="GitHub stats" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Protagonist01&theme=github_dark" alt="GitHub stats" />
 &nbsp;
-<img width="48%" src="https://streak-stats.demolab.com/?user=Protagonist01&theme=github-dark-blue&hide_border=true&background=0d1117&ring=00FF9C&fire=00FF9C&currStreakLabel=00FF9C&sideLabels=c9d1d9" alt="GitHub streak" />
+<img width="49%" src="https://streak-stats.demolab.com/?user=Protagonist01&theme=github-dark-blue&hide_border=true&background=0d1117&ring=00FF9C&fire=00FF9C&currStreakLabel=00FF9C&sideLabels=c9d1d9" alt="GitHub streak" />
 
 <br/><br/>
 
-<img width="38%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Protagonist01&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00FF9C&text_color=c9d1d9&langs_count=6" alt="Top languages" />
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Protagonist01&theme=github_dark" alt="Repos per language" />
+&nbsp;
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Protagonist01&theme=github_dark" alt="Most commit language" />
+&nbsp;
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Protagonist01&theme=github_dark&utcOffset=1" alt="Productive time" />
 
 </div>
 
