@@ -202,9 +202,9 @@ Python CLI task manager with **natural-language parsing**, tags, priorities, dat
 
 | | |
 |:---:|:---:|
-| Portfolio | coming soon |
-| LinkedIn | coming soon |
-| Email | coming soon |
+| 🔗 **Portfolio** | `coming soon` |
+| 💼 **LinkedIn** | [Henry Fadeni](https://www.linkedin.com/in/henry-fadeni-ai-engineer) |
+| 📧 **Email** | [hfadeni@gmail.com](mailto:hfadeni@gmail.com) |
 
 </div>
 
