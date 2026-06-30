@@ -1,7 +1,12 @@
 <div align="center">
 
+<!-- Custom Terminal Hero Banner -->
+<img src="media/banner.png" width="100%" alt="Software & AI Engineer Banner" />
+
+<br/><br/>
+
 <!-- Animated Banner -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3200&pause=900&color=00FF9C&center=true&vCenter=true&width=800&height=56&lines=Software+%26+AI+Engineer+%F0%9F%A4%96;Building+agents+that+reason+%26+act;RAG+%C2%B7+LangGraph+%C2%B7+FastAPI+%C2%B7+Production+AI)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=3200&pause=900&color=00FF9C&center=true&vCenter=true&width=800&height=50&lines=Software+%26+AI+Engineer+%F0%9F%A4%96;Building+agents+that+reason+%26+act;RAG+%C2%B7+LangGraph+%C2%B7+FastAPI+%C2%B7+Production+AI)](https://git.io/typing-svg)
 
 <br/>
 
@@ -55,36 +60,36 @@ me = {
 
 **AI / ML**
 
-![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=00FF9C)
-![LangGraph](https://img.shields.io/badge/LangGraph-0d1117?style=for-the-badge&logo=graphql&logoColor=00FF9C)
-![LangChain](https://img.shields.io/badge/LangChain-0d1117?style=for-the-badge&logo=chainlink&logoColor=00FF9C)
-![OpenAI](https://img.shields.io/badge/OpenAI-0d1117?style=for-the-badge&logo=openai&logoColor=00FF9C)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-0d1117?style=for-the-badge&logo=tensorflow&logoColor=00FF9C)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-0d1117?style=for-the-badge&logo=scikit-learn&logoColor=00FF9C)
-![Pinecone](https://img.shields.io/badge/Pinecone-0d1117?style=for-the-badge&logo=pinecone&logoColor=00FF9C)
+![Python](media/badges/python.svg)
+![LangGraph](media/badges/langgraph.svg)
+![LangChain](media/badges/langchain.svg)
+![OpenAI](media/badges/openai.svg)
+![TensorFlow](media/badges/tensorflow.svg)
+![Scikit-Learn](media/badges/scikitlearn.svg)
+![Pinecone](media/badges/pinecone.svg)
 
 <br/>
 
 **Backend / Web**
 
-![FastAPI](https://img.shields.io/badge/FastAPI-0d1117?style=for-the-badge&logo=fastapi&logoColor=00FF9C)
-![Node.js](https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=node.js&logoColor=00FF9C)
-![Next.js](https://img.shields.io/badge/Next.js-0d1117?style=for-the-badge&logo=nextdotjs&logoColor=00FF9C)
-![React](https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=00FF9C)
-![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=00FF9C)
-![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=00FF9C)
+![FastAPI](media/badges/fastapi.svg)
+![Node.js](media/badges/nodejs.svg)
+![Next.js](media/badges/nextjs.svg)
+![React](media/badges/react.svg)
+![TypeScript](media/badges/typescript.svg)
+![JavaScript](media/badges/javascript.svg)
 
 <br/>
 
 **Data / DevOps / Reliability**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=00FF9C)
-![DuckDB](https://img.shields.io/badge/DuckDB-0d1117?style=for-the-badge&logo=duckdb&logoColor=00FF9C)
-![Redis](https://img.shields.io/badge/Redis-0d1117?style=for-the-badge&logo=redis&logoColor=00FF9C)
-![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=00FF9C)
-![Celery](https://img.shields.io/badge/Celery-0d1117?style=for-the-badge&logo=celery&logoColor=00FF9C)
-![Prometheus](https://img.shields.io/badge/Prometheus-0d1117?style=for-the-badge&logo=prometheus&logoColor=00FF9C)
-![Grafana](https://img.shields.io/badge/Grafana-0d1117?style=for-the-badge&logo=grafana&logoColor=00FF9C)
+![PostgreSQL](media/badges/postgresql.svg)
+![DuckDB](media/badges/duckdb.svg)
+![Redis](media/badges/redis.svg)
+![Docker](media/badges/docker.svg)
+![Celery](media/badges/celery.svg)
+![Prometheus](media/badges/prometheus.svg)
+![Grafana](media/badges/grafana.svg)
 
 </div>
 
@@ -178,6 +183,15 @@ Python CLI task manager with **natural-language parsing**, tags, priorities, dat
 <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Protagonist01&theme=github_dark&utcOffset=1" alt="Productive time" />
 
 </div>
+
+<br/>
+
+---
+
+## ⚡ &nbsp; Recent Activity
+
+<!-- START_SECTION:activity -->
+<!-- END_SECTION:activity -->
 
 <br/>
 
