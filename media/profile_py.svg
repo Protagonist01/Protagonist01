@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 800 260">
+  <defs>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#00FF9C" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  
+  <!-- Window Background -->
+  <rect x="2" y="2" width="796" height="256" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1.5" filter="url(#glow)"/>
+  
+  <!-- Titlebar -->
+  <path d="M2,10 A8,8 0 0,1 10,2 L790,2 A8,8 0 0,1 798,10 L798,35 L2,35 Z" fill="#161b22"/>
+  <line x1="2" y1="35" x2="798" y2="35" stroke="#30363d" stroke-width="1"/>
+  
+  <!-- Window controls -->
+  <circle cx="20" cy="18" r="6" fill="#ff5f56"/>
+  <circle cx="40" cy="18" r="6" fill="#ffbd2e"/>
+  <circle cx="60" cy="18" r="6" fill="#27c93f"/>
+  
+  <!-- Title text -->
+  <text x="50%" y="22" dominant-baseline="middle" text-anchor="middle" fill="#8b949e" font-family="Courier New, Courier, monospace" font-size="12" font-weight="bold">python - profile.py</text>
+  
+  <!-- Terminal Content (Python Syntax Highlighted) -->
+  <g font-family="Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace" font-size="13" xml:space="preserve">
+    <text x="25" y="65" fill="#ff7b72">class</text>
+    <text x="75" y="65" fill="#d2a8ff">HenryFadeni</text>
+    <text x="165" y="65" fill="#f8f8f2">:</text>
+    
+    <text x="50" y="90" fill="#ff7b72">def</text>
+    <text x="80" y="90" fill="#d2a8ff">__init__</text>
+    <text x="145" y="90" fill="#f8f8f2">(self):</text>
+    
+    <text x="80" y="115" fill="#e5c07b">self</text>
+    <text x="112" y="115" fill="#f8f8f2">.role</text>
+    <text x="160" y="115" fill="#56b6c2">=</text>
+    <text x="180" y="115" fill="#98c379">"Software &amp; AI Engineer"</text>
+    
+    <text x="80" y="140" fill="#e5c07b">self</text>
+    <text x="112" y="140" fill="#f8f8f2">.focus</text>
+    <text x="168" y="140" fill="#56b6c2">=</text>
+    <text x="188" y="140" fill="#abb2bf">[</text>
+    <text x="198" y="140" fill="#98c379">"Agents"</text>
+    <text x="260" y="140" fill="#abb2bf">, </text>
+    <text x="275" y="140" fill="#98c379">"RAG"</text>
+    <text x="320" y="140" fill="#abb2bf">, </text>
+    <text x="335" y="140" fill="#98c379">"Applied ML"</text>
+    <text x="425" y="140" fill="#abb2bf">, </text>
+    <text x="440" y="140" fill="#98c379">"Reliability"</text>
+    <text x="540" y="140" fill="#abb2bf">]</text>
+    
+    <text x="80" y="165" fill="#e5c07b">self</text>
+    <text x="112" y="165" fill="#f8f8f2">.approach</text>
+    <text x="196" y="165" fill="#56b6c2">=</text>
+    <text x="216" y="165" fill="#98c379">"Policy gates, audit trails, and human-in-the-loop"</text>
+    
+    <text x="80" y="190" fill="#e5c07b">self</text>
+    <text x="112" y="190" fill="#f8f8f2">.stack</text>
+    <text x="160" y="190" fill="#56b6c2">=</text>
+    <text x="180" y="190" fill="#98c379">["LangGraph", "FastAPI", "PostgreSQL", "Docker", "Redis"]</text>
+    
+    <text x="80" y="225" fill="#7f848e"># "The best way to predict the future is to build it."</text>
+  </g>
+</svg>

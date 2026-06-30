@@ -13,20 +13,7 @@
 
 <br/>
 
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║  $ whoami                                                            ║
-╠══════════════════════════════════════════════════════════════════════╣
-║                                                                      ║
-║  ▸ Software & AI Engineer                                            ║
-║  ▸ I build the engineering layer around AI -- not just the prompt    ║
-║  ▸ Agents * RAG * Reliability * Observability * Backend Systems      ║
-║                                                                      ║
-║  Current focus: safe agentic systems, text-to-SQL, SRE automation,  ║
-║                 eval-driven workflows, and production AI tooling     ║
-║                                                                      ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
+<img src="media/whoami.svg" width="100%" alt="whoami Terminal" />
 
 <br/>
 
@@ -34,16 +21,7 @@
 
 ## About Me
 
-```python
-me = {
-    "role"    : "Software & AI Engineer",
-    "focus"   : ["Agentic AI systems", "RAG pipelines", "LLM-backed automation",
-                 "Production backend", "Observability", "Applied ML"],
-    "approach": "Clear boundaries, policy gates, audit trails, measurable outcomes",
-    "ask_me"  : ["LangGraph", "FastAPI", "RAG architecture",
-                 "text-to-SQL", "AI developer tooling", "Python design"],
-}
-```
+<img src="media/profile_py.svg" width="100%" alt="About Me Python File" />
 
 <br/>
 

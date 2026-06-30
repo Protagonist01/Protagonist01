@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="240" viewBox="0 0 800 240">
+  <defs>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#00FF9C" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  
+  <!-- Window Background -->
+  <rect x="2" y="2" width="796" height="236" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1.5" filter="url(#glow)"/>
+  
+  <!-- Titlebar -->
+  <path d="M2,10 A8,8 0 0,1 10,2 L790,2 A8,8 0 0,1 798,10 L798,35 L2,35 Z" fill="#161b22"/>
+  <line x1="2" y1="35" x2="798" y2="35" stroke="#30363d" stroke-width="1"/>
+  
+  <!-- Window controls -->
+  <circle cx="20" cy="18" r="6" fill="#ff5f56"/>
+  <circle cx="40" cy="18" r="6" fill="#ffbd2e"/>
+  <circle cx="60" cy="18" r="6" fill="#27c93f"/>
+  
+  <!-- Title text -->
+  <text x="50%" y="22" dominant-baseline="middle" text-anchor="middle" fill="#8b949e" font-family="Courier New, Courier, monospace" font-size="12" font-weight="bold">terminal - whoami</text>
+  
+  <!-- Terminal Content -->
+  <g font-family="Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace" font-size="14" xml:space="preserve">
+    <!-- Prompt -->
+    <text x="25" y="65" fill="#58a6ff">$ whoami</text>
+    
+    <!-- Output -->
+    <text x="25" y="95" fill="#00FF9C" font-weight="bold">▸ Software &amp; AI Engineer</text>
+    <text x="25" y="125" fill="#c9d1d9">▸ Building the engineering layer around AI — not just the prompt.</text>
+    <text x="25" y="155" fill="#8b949e">▸ Focus: Agents · RAG · Reliability · Observability · Backend Systems</text>
+    
+    <text x="25" y="195" fill="#ff7b72">Current status:</text>
+    <text x="150" y="195" fill="#d2a8ff">Designing safe autonomous systems &amp; text-to-SQL workflows</text>
+    
+    <!-- Blinking cursor effect -->
+    <rect x="585" y="183" width="8" height="15" fill="#00FF9C">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+    </rect>
+  </g>
+</svg>
