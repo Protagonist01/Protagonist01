@@ -31,7 +31,7 @@
 
 <div align="center">
 
-**AI / ML**
+**`$ query --stack ai-ml`**
 
 ![Python](media/badges/python.svg)
 ![LangGraph](media/badges/langgraph.svg)
@@ -43,7 +43,7 @@
 
 <br/>
 
-**Backend / Web**
+**`$ query --stack backend-web`**
 
 ![FastAPI](media/badges/fastapi.svg)
 ![Node.js](media/badges/nodejs.svg)
@@ -54,7 +54,7 @@
 
 <br/>
 
-**Data / DevOps / Reliability**
+**`$ query --stack devops-infra`**
 
 ![PostgreSQL](media/badges/postgresql.svg)
 ![DuckDB](media/badges/duckdb.svg)
@@ -72,68 +72,45 @@
 
 ## Featured Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+```text
+$ tree projects/
+├── 🤖 self-healing-monitor [active]  - AI-assisted SRE runbook remediation
+├── 🔍 code-review-agent    [stable]  - Autonomous GitHub App for PR reviews
+├── 📊 analytics-dashboard  [active]  - Natural-language to DuckDB text-to-SQL
+├── 🍃 feijoa-ml-pipeline   [archived]- TensorFlow & Scikit-learn quality system
+├── 🛍️ aboutface-rag        [stable]  - Pinecone-grounded brand assistant
+└── ✅ smart-todo-cli       [stable]  - Regex-powered task manager CLI
+```
 
-### [Self-Healing Monitor](https://github.com/Protagonist01/self-healing-monitor)
+### 🤖 &nbsp; [Self-Healing Monitor](https://github.com/Protagonist01/self-healing-monitor)
+> AI-assisted SRE system -- receives Prometheus alerts, retrieves runbook context, diagnoses incidents, and routes remediation through **policy gates, audit logs, and human approval**.
+>
+> **Stack:** `Python` · `LangGraph` · `FastAPI` · `Prometheus` · `PostgreSQL` · `Docker` · `React`
 
-AI-assisted SRE system -- receives Prometheus alerts, retrieves runbook context, diagnoses incidents, and routes remediation through **policy gates, audit logs, and human approval**.
+### 🔍 &nbsp; [Code Review Agent](https://github.com/Protagonist01/code-review-agent)
+> Autonomous GitHub App for PR review -- HMAC webhooks, Celery/Redis job handling, **LangGraph review flow**, inline comments, commit statuses, and swappable LLM backends.
+>
+> **Stack:** `FastAPI` · `Celery` · `Redis` · `LangGraph` · `Docker` · `OpenRouter` · `Ollama`
 
-`Python` `LangGraph` `FastAPI` `Prometheus` `PostgreSQL` `Docker` `React`
+### 📊 &nbsp; [RAG Analytics Dashboard](https://github.com/Protagonist01/retrieval-augumented-analytics-dashboard)
+> Natural-language to SQL analytics platform -- generates validated SQL, runs it in a **sandboxed DuckDB layer**, streams charts and AI explanations, includes an evaluation harness.
+>
+> **Stack:** `Python` · `FastAPI` · `Next.js` · `DuckDB` · `Redis` · `SSE`
 
-</td>
-<td width="50%" valign="top">
+### 🍃 &nbsp; [Feijoa ML Quality System](https://github.com/Protagonist01/feijoa-classification-and-weightloss-prediction)
+> Two-model quality pipeline -- **MobileNetV2 classification** + Random Forest regression, FastAPI inference endpoint, Supabase storage, and Hugging Face model hosting.
+>
+> **Stack:** `TensorFlow` · `Scikit-learn` · `FastAPI` · `Supabase` · `Vercel`
 
-### [Code Review Agent](https://github.com/Protagonist01/code-review-agent)
+### 🛍️ &nbsp; [About Face RAG Chatbot](https://github.com/Protagonist01/aboutface-chatbot-demo)
+> Brand-aligned e-commerce assistant -- grounds product, shade, shipping, and usage answers in a **Pinecone-backed knowledge base**.
+>
+> **Stack:** `Node.js` · `Express` · `Pinecone` · `OpenAI` · `Vercel`
 
-Autonomous GitHub App for PR review -- HMAC webhooks, Celery/Redis job handling, **LangGraph review flow**, inline comments, commit statuses, and swappable LLM backends.
-
-`FastAPI` `Celery` `Redis` `LangGraph` `Docker` `OpenRouter` `Ollama`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [RAG Analytics Dashboard](https://github.com/Protagonist01/retrieval-augumented-analytics-dashboard)
-
-Natural-language to SQL analytics platform -- generates validated SQL, runs it in a **sandboxed DuckDB layer**, streams charts and AI explanations, includes an evaluation harness.
-
-`Python` `FastAPI` `Next.js` `DuckDB` `Redis` `SSE`
-
-</td>
-<td width="50%" valign="top">
-
-### [Feijoa ML Quality System](https://github.com/Protagonist01/feijoa-classification-and-weightloss-prediction)
-
-Two-model quality pipeline -- **MobileNetV2 classification** + Random Forest regression, FastAPI inference endpoint, Supabase storage, and Hugging Face model hosting.
-
-`TensorFlow` `Scikit-learn` `FastAPI` `Supabase` `Vercel`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [About Face RAG Chatbot](https://github.com/Protagonist01/aboutface-chatbot-demo)
-
-Brand-aligned e-commerce assistant -- grounds product, shade, shipping, and usage answers in a **Pinecone-backed knowledge base**.
-
-`Node.js` `Express` `Pinecone` `OpenAI` `Vercel`
-
-</td>
-<td width="50%" valign="top">
-
-### [Smart Todo CLI](https://github.com/Protagonist01/smart-todo-app)
-
-Python CLI task manager with **natural-language parsing**, tags, priorities, dates, assignments, search, persistence, and a large automated test suite.
-
-`Python` `Poetry` `Regex` `Pytest`
-
-</td>
-</tr>
-</table>
+### ✅ &nbsp; [Smart Todo CLI](https://github.com/Protagonist01/smart-todo-app)
+> Python CLI task manager with **natural-language parsing**, tags, priorities, dates, assignments, search, persistence, and a large automated test suite.
+>
+> **Stack:** `Python` · `Poetry` · `Regex` · `Pytest`
 
 <br/>
 
@@ -172,12 +149,12 @@ Python CLI task manager with **natural-language parsing**, tags, priorities, dat
 
 ## Currently Exploring
 
-| Area | What I am working through |
-|------|---------------------------|
-| Eval-driven AI | Building text-to-SQL accuracy harnesses and safety checks |
-| Safe agents | Self-healing infrastructure patterns for operational incidents |
-| Private LLMs | Local-first AI tooling with Ollama and privacy-conscious design |
-| Observability | Traces, dashboards, and explainability for AI-backed workflows |
+```text
+[ ] 🔬 Eval-driven AI  ▸ Building text-to-SQL accuracy harnesses & safety checks
+[x] 🛡️ Safe agents     ▸ Deployed self-healing infrastructure patterns
+[/] 🔒 Private LLMs    ▸ Integrating local Ollama setups for offline runs
+[ ] 📡 Observability   ▸ Setting up structured tracer loops & explanation queues
+```
 
 <br/>
 
@@ -187,11 +164,9 @@ Python CLI task manager with **natural-language parsing**, tags, priorities, dat
 
 <div align="center">
 
-| | |
-|:---:|:---:|
-| 🔗 **Portfolio** | `coming soon` |
-| 💼 **LinkedIn** | [Henry Fadeni](https://www.linkedin.com/in/henry-fadeni-ai-engineer) |
-| 📧 **Email** | [hfadeni@gmail.com](mailto:hfadeni@gmail.com) |
+`$` ssh [linkedin/henry-fadeni-ai-engineer](https://www.linkedin.com/in/henry-fadeni-ai-engineer)  
+`$` curl [hfadeni@gmail.com](mailto:hfadeni@gmail.com)  
+`$` ping [portfolio](https://github.com/Protagonist01) `// coming soon`
 
 </div>
 
