@@ -141,6 +141,7 @@ $ tree projects/
 ## ⚡ &nbsp; Recent Activity
 
 <!--START_SECTION:activity-->
+1. 💪 Opened PR [#20](https://github.com/Protagonist01/smart-todo-app/pull/20) in [Protagonist01/smart-todo-app](https://github.com/Protagonist01/smart-todo-app)
 <!--END_SECTION:activity-->
 
 <br/>
