@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Banner -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=3200&pause=900&color=00FF9C&center=true&vCenter=true&width=800&height=50&lines=Software+%26+AI+Engineer+%F0%9F%A4%96;Building+agents+that+reason+%26+act;RAG+%C2%B7+LangGraph+%C2%B7+FastAPI+%C2%B7+Production+AI)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=3200&pause=900&color=00FF9C&center=true&vCenter=true&width=800&height=50&lines=I+am+Protagonist;Software+%26+AI+Engineer+%F0%9F%A4%96;Building+agents+that+reason+%26+act;RAG+%C2%B7+LangGraph+%C2%B7+FastAPI+%C2%B7+Production+AI)](https://git.io/typing-svg)
 
 <br/>
 
