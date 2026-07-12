@@ -16,7 +16,7 @@ from urllib.request import Request, urlopen
 
 API_ROOT = "https://api.github.com"
 DEFAULT_USERNAME = "Protagonist01"
-DEFAULT_SVG = Path(__file__).resolve().parents[1] / "media" / "terminal-profile.svg"
+DEFAULT_SVG = Path(__file__).resolve().parents[1] / "media" / "profile-card.svg"
 
 
 def github_json(path: str, token: str | None) -> object:
