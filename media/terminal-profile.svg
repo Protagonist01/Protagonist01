@@ -1,11 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="550" viewBox="0 0 1200 550" role="img" aria-labelledby="title desc">
   <title id="title">Henry Fadeni terminal profile</title>
-  <desc id="desc">A dark terminal-style GitHub profile card with an ASCII portrait and verified engineering profile details.</desc>
+  <desc id="desc">A dark terminal-style GitHub profile card with a detailed ASCII portrait and engineering profile details.</desc>
 
   <style>
     .mono { font-family: "Cascadia Code", "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
     .header { fill: #c9d1d9; font-size: 15px; font-weight: 600; }
-    .ascii { fill: #9da7b3; font-size: 14px; }
     .host { fill: #c9d1d9; font-size: 16px; font-weight: 600; }
     .label { fill: #d29922; font-size: 14px; font-weight: 600; }
     .dots { fill: #484f58; font-size: 14px; }
@@ -16,93 +15,73 @@
   </style>
 
   <rect x="1" y="1" width="1198" height="548" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="2" />
-
   <text x="32" y="40" class="mono header">Protagonist01 / README.md</text>
+
   <g transform="translate(1148 25)" fill="none" stroke="#8b949e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
     <path d="M3 17.5V21h3.5L18.8 8.7l-3.5-3.5L3 17.5Z" />
     <path d="m13.8 6.7 3.5 3.5" />
   </g>
 
   <rect x="28" y="70" width="1144" height="452" rx="12" fill="#11161f" />
-
-  <g class="mono ascii" xml:space="preserve">
-    <text x="52" y="111">;;;;;;iiiiiiiiiriiiiiiirrrrrrrrrrrrrrrriii</text>
-    <text x="52" y="129">;;;;iiiiiiiiiri,.      .,:irrrrrrrrrrrrrrr</text>
-    <text x="52" y="147">;;;iiiiiiirrri             .;rrrrrrrrrrrrr</text>
-    <text x="52" y="165">;iiiiiiiirrrr, ..,,,,..      .rsrrrrrrrrrr</text>
-    <text x="52" y="183">iiiriirrrrrr; ,:isXXr;:,..    ,sssssssssrr</text>
-    <text x="52" y="201">iirrrrrrrrrr,i3G9B&amp;B#H2i::     rssssssssss</text>
-    <text x="52" y="219">iirrrrrrrrrrsGS&amp;@@@@B#BSA;.    ssXXXXXXXss</text>
-    <text x="52" y="237">irrrrrrrrrrsSB9@&amp;B9&amp;#G9MHA:   :XXXXXXXXXXX</text>
-    <text x="52" y="255">irrrrrrrrrrA#SG3AXrAHSSSG2, ;2AXXXXXXXXXXX</text>
-    <text x="52" y="273">irrrrrrrrrsr;i;,,,.,;rii;,  AS2XXXXXXXXXXX</text>
-    <text x="52" y="291">rrrrrrsssssi.,.,::,..,,..  :sAXXXXXXXXXXXX</text>
-    <text x="52" y="309">rrrrrrsssri: ..,::,.       .,:;rXXXXXXXXXX</text>
-    <text x="52" y="327">rrrrrrss;      .,..             .rXXXXXXXX</text>
-    <text x="52" y="345">rrrrrrss.                        :XXXXXXXX</text>
-    <text x="52" y="363">rrrrrss;      ..                 .rXXXXXXX</text>
-    <text x="52" y="381">rrrrri:.       ....                ;irXXXs</text>
-    <text x="52" y="399">ii;,              .                   .:rs</text>
-    <text x="52" y="417">,                                        :</text>
-  </g>
+  <image href="ascii-portrait.png" x="34" y="82" width="340" height="420" preserveAspectRatio="xMidYMid meet" />
 
   <g class="mono">
-    <text x="476" y="108" class="host">henry@protagonist01</text>
+    <text x="390" y="108" class="host">henry@protagonist01</text>
 
-    <text x="476" y="137" class="label">Role</text>
-    <text x="584" y="137" class="dots">........................</text>
-    <text x="757" y="137" class="value">Software &amp; AI Engineer</text>
+    <text x="390" y="137" class="label">Role</text>
+    <text x="498" y="137" class="dots">........................</text>
+    <text x="671" y="137" class="value">Software &amp; AI Engineer</text>
 
-    <text x="476" y="161" class="label">Focus</text>
-    <text x="584" y="161" class="dots">........................</text>
-    <text x="757" y="161" class="value">Production AI systems &amp; automation</text>
+    <text x="390" y="161" class="label">Focus</text>
+    <text x="498" y="161" class="dots">........................</text>
+    <text x="671" y="161" class="value">Production AI systems &amp; automation</text>
 
-    <text x="476" y="185" class="label">Member</text>
-    <text x="584" y="185" class="dots">........................</text>
-    <text x="757" y="185" class="value">GitHub since June 2022</text>
+    <text x="390" y="185" class="label">Member</text>
+    <text x="498" y="185" class="dots">........................</text>
+    <text x="671" y="185" class="value">GitHub since June 2022</text>
 
-    <text x="476" y="218" class="section">-- Engineering -------------------------------------------------</text>
+    <text x="390" y="218" class="section">-- Engineering ------------------------------------------------------</text>
 
-    <text x="476" y="246" class="label">Languages</text>
-    <text x="584" y="246" class="dots">........................</text>
-    <text x="757" y="246" class="value-green">Python, TypeScript, JavaScript, SQL</text>
+    <text x="390" y="246" class="label">Languages</text>
+    <text x="498" y="246" class="dots">........................</text>
+    <text x="671" y="246" class="value-green">Python, TypeScript, JavaScript, SQL</text>
 
-    <text x="476" y="270" class="label">AI / ML</text>
-    <text x="584" y="270" class="dots">........................</text>
-    <text x="757" y="270" class="value-green">LangGraph, RAG, OpenAI, Pinecone</text>
+    <text x="390" y="270" class="label">AI / ML</text>
+    <text x="498" y="270" class="dots">........................</text>
+    <text x="671" y="270" class="value-green">LangGraph, RAG, OpenAI, Pinecone</text>
 
-    <text x="476" y="294" class="label">Frameworks</text>
-    <text x="584" y="294" class="dots">........................</text>
-    <text x="757" y="294" class="value-green">FastAPI, React, Next.js, Express</text>
+    <text x="390" y="294" class="label">Frameworks</text>
+    <text x="498" y="294" class="dots">........................</text>
+    <text x="671" y="294" class="value-green">FastAPI, React, Next.js, Express</text>
 
-    <text x="476" y="318" class="label">Infra</text>
-    <text x="584" y="318" class="dots">........................</text>
-    <text x="757" y="318" class="value-green">Docker, Redis, PostgreSQL, Prometheus</text>
+    <text x="390" y="318" class="label">Infra</text>
+    <text x="498" y="318" class="dots">........................</text>
+    <text x="671" y="318" class="value-green">Docker, Redis, PostgreSQL, Prometheus</text>
 
-    <text x="476" y="342" class="label">Building</text>
-    <text x="584" y="342" class="dots">........................</text>
-    <text x="757" y="342" class="value-green">Agents, developer tools, analytics systems</text>
+    <text x="390" y="342" class="label">Building</text>
+    <text x="498" y="342" class="dots">........................</text>
+    <text x="671" y="342" class="value-green">Agents, developer tools, analytics systems</text>
 
-    <text x="476" y="375" class="section">-- Contact -----------------------------------------------------</text>
+    <text x="390" y="375" class="section">-- Contact ----------------------------------------------------------</text>
 
-    <text x="476" y="403" class="label">Email</text>
-    <text x="584" y="403" class="dots">........................</text>
-    <text x="757" y="403" class="value-purple">hfadeni@gmail.com</text>
+    <text x="390" y="403" class="label">Email</text>
+    <text x="498" y="403" class="dots">........................</text>
+    <text x="671" y="403" class="value-purple">hfadeni@gmail.com</text>
 
-    <text x="476" y="427" class="label">LinkedIn</text>
-    <text x="584" y="427" class="dots">........................</text>
-    <text x="757" y="427" class="value-purple">henry-fadeni-ai-engineer</text>
+    <text x="390" y="427" class="label">LinkedIn</text>
+    <text x="498" y="427" class="dots">........................</text>
+    <text x="671" y="427" class="value-purple">henry-fadeni-ai-engineer</text>
 
-    <text x="476" y="460" class="section">-- GitHub Stats ------------------------------------------------</text>
+    <text x="390" y="460" class="section">-- GitHub Stats -----------------------------------------------------</text>
 
-    <text x="476" y="488" class="label">Repos</text>
-    <text x="584" y="488" class="dots">........................</text>
-    <text x="757" y="488" class="value">13 public</text>
-    <text x="858" y="488" class="label">Stars</text>
-    <text x="914" y="488" class="value">1</text>
-    <text x="956" y="488" class="label">Followers</text>
-    <text x="1044" y="488" class="value">1</text>
+    <text x="390" y="488" class="label">Repos</text>
+    <text x="498" y="488" class="dots">........................</text>
+    <text x="671" y="488" class="value">13 public</text>
+    <text x="772" y="488" class="label">Stars</text>
+    <text x="828" y="488" class="value">1</text>
+    <text x="870" y="488" class="label">Followers</text>
+    <text x="958" y="488" class="value">1</text>
 
-    <rect x="476" y="503" width="660" height="1" fill="#30363d" />
+    <rect x="390" y="503" width="746" height="1" fill="#30363d" />
   </g>
 </svg>
