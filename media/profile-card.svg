@@ -1935,7 +1935,7 @@
     <text x="493" y="506" class="label">Stars</text>
     <text id="star-count" x="552" y="506" class="value">1</text>
     <text x="596" y="506" class="label">Followers</text>
-    <text id="follower-count" x="688" y="506" class="value">1</text>
+    <text id="follower-count" x="688" y="506" class="value">2</text>
     <text x="732" y="506" class="label">Following</text>
     <text id="following-count" x="824" y="506" class="value">3</text>
     <text x="868" y="506" class="label">Commits YTD</text>
