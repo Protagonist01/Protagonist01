@@ -1931,7 +1931,7 @@
     <text x="390" y="481" class="section">-- GitHub Stats -----------------------------------------------------</text>
 
     <text x="390" y="506" class="label">Repos</text>
-    <text id="repo-count" x="449" y="506" class="value">14</text>
+    <text id="repo-count" x="449" y="506" class="value">15</text>
     <text x="493" y="506" class="label">Stars</text>
     <text id="star-count" x="552" y="506" class="value">1</text>
     <text x="596" y="506" class="label">Followers</text>
